@@ -23,7 +23,7 @@ export default class App extends React.Component {
       },
       error => {
         this.setState({
-          error: 'Error Getting Weather Condtions'
+          error: 'Error Getting Weather Conditions'
         });
       }
     );
